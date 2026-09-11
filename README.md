@@ -614,37 +614,6 @@ Overall, the experiments support a **multi-dimensional evaluation of fairness**,
 
 ---
 
-## Resume Pointers
-
-### Recommended version
-
-**Algorithmic Fairness & Bias in Credit Scoring** | Python, Scikit-learn, XGBoost, AIF360
-
-- Developed a comparative fairness-auditing pipeline across **Adult Income and German Credit** using **Logistic Regression, Random Forest, and XGBoost**, evaluating Accuracy, F1, ROC-AUC and four fairness metrics across Age, Sex, and Age × Sex intersectional groups.
-- Implemented and compared **Reweighing, Adversarial Debiasing (α=0.1, 1, 10), and Calibrated Equalized Odds**, analyzing fairness–performance trade-offs across pre-, in-, and post-processing approaches while maintaining test-set isolation.
-- Found that mitigation effectiveness was **dataset-, model-, protected-attribute-, and metric-dependent**, with substantial baseline disparities on Adult Income and particularly strong fairness improvements from CE-Odds on German Credit.
-
-### Shorter version
-
-- Built a Python-based **algorithmic fairness pipeline** for Adult Income and German Credit using Logistic Regression, Random Forest and XGBoost, auditing Age, Sex and Age × Sex intersectional disparities.
-- Implemented **Reweighing, Adversarial Debiasing and Calibrated Equalized Odds** and compared Accuracy/F1/ROC-AUC against DPD/EOD/EOPD/DI.
-- Demonstrated that fairness mitigation is **context-dependent**, with stronger baseline disparities on Adult Income and substantial fairness gains from CE-Odds on German Credit.
-
-### Interview topics this project prepares you for
-
-- Why use multiple fairness metrics?
-- Why evaluate Age × Sex intersectionally?
-- Difference between pre-, in-, and post-processing?
-- How Reweighing works
-- How Adversarial Debiasing works and what α controls
-- Why some adversarial configurations were unstable
-- How CE-Odds works
-- How test-set leakage was avoided
-- Why AUC is unavailable for some mitigated outputs
-- Why there is no universally "best" mitigation method
-
----
-
 ## Author
 
 **Pritha Ranjan**
